@@ -9,8 +9,104 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 <!-- font awesome cdn -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- tailwind css link -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
 </head>
 <body>
+
+  <!-- main section -->
+<main class="max-w-screen-xl mx-auto px-16 lg:px-24">
+  <!-- header section -->
+   <header class="lg:flex pt-20 mb-20">
+<!-- text content -->
+ <div>
+  <h1 class="text-6 font-bold md:text-7xl">It's good <br>
+    tea time at The <br>
+     Tea House</h1>
+<p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+<button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold">
+  Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
+</button>
+ </div>
+<!-- image content -->
+ <div class="relative">
+<img class="w-full" src="images/banner.png" alt="">
+<!-- card -->
+<div class="flex  items-center bg-white p-2 shadow-lg md:px-10 lg:py-4 absolute top-28 md:top-80 md:left-26 lg:left-30">
+<div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
+<div class="ml-2">
+  <h2 class="lg:text-2xl font-bold">5.00</h2>
+  <p class="text-gray-500">Trust Pilot Ratings</p>
+</div>
+</div>
+ </div>
+
+   </header>
+
+   <!-- our feature product -->
+<section class="p-8 lg:p-24">
+<!-- title -->
+ <div class="text-center mb-8">
+  <h1 class="text-3xl md:text-4xl font-bold mb-4">Our Featured Products</h1>
+  <p class="text-gray-600">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+ </div>
+
+ <!-- grid cards -->
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+<!-- product card -->
+ <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+  <img class="mx-auto pt-4" src="images/tea-1.png" alt="">
+  <div class="p-4">
+    <h2 class="font-bold text-xl p-4">Milk Tea</h2>
+  <p class="text-gray-600">Creamer could be replaced  by fresh milk</p>
+
+  </div>
+ </div>
+<!-- product card -->
+ <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+  <img class="mx-auto pt-4" src="images/tea-2.png" alt="">
+  <div class="p-4">
+    <h2 class="font-bold text-xl p-4">Black Tea</h2>
+  <p class="text-gray-600">Creamer could be replaced  by fresh milk</p>
+
+  </div>
+ </div>
+<!-- product card -->
+ <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+  <img class="mx-auto pt-4" src="images/tea-3.png" alt="">
+  <div class="p-4">
+    <h2 class="font-bold text-xl p-4">Lemon Tea</h2>
+  <p class="text-gray-600">Creamer could be replaced  by fresh milk</p>
+
+  </div>
+ </div>
+<!-- product card -->
+ <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+  <img class="mx-auto pt-4" src="images/tea-4.png" alt="">
+  <div class="p-4">
+    <h2 class="font-bold text-xl p-4">Grean Tea</h2>
+  <p class="text-gray-600">Creamer could be replaced  by fresh milk</p>
+
+  </div>
+ </div>
+ 
+
+  </div>
+
+</section>
+</main>
+
     
 </body>
 </html>
